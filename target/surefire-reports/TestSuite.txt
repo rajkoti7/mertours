@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 79.245 sec <<< FAILURE!
+validateHomepageTitleTest(com.mercury.qa.testcases.HomePageTest)  Time elapsed: 0.018 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Sign-on: Mercury Tours] but found [Find a Flight: Mercury Tours:]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.mercury.qa.testcases.HomePageTest.validateHomepageTitleTest(HomePageTest.java:34)
+

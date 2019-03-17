@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="12" failures="1" name="TestSuite" time="2.952" errors="0" skipped="0">
+  <properties>
+    <property name="JOB_NAME" value="MercuryTest"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Users\raj\.jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="4a211820554dc9c0"/>
+    <property name="POM_ARTIFACTID" value="MercuryToursTest"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java" value="C:\Program Files\Java\jdk-11.0.2\bin"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="POM_DISPLAYNAME" value="MercuryToursTest"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="TEMP" value="C:\Users\raj\AppData\Local\Temp"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="java.runtime.version" value="11.0.2+9-LTS"/>
+    <property name="ST_INSTALL_PATH" value="C:\Program Files (x86)\Micro Focus\Unified Functional Testing\"/>
+    <property name="user.name" value="raj"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="MercuryTest"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/MercuryTest/2/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="OneDrive" value="C:\Users\raj\OneDrive"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="LOCALAPPDATA" value="C:\Users\raj\AppData\Local"/>
+    <property name="java.version" value="11.0.2"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERNAME" value="raj"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="MOZ_PLUGIN_PATH" value="C:\Program Files (x86)\Foxit Software\Foxit Reader\Foxit Reader\plugins\"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="BUILD_ID" value="2"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="maven.conf" value="C:\Users\raj\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="=::" value="::\"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="CA"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.2"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="10.0"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/MercuryTest/2/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\Users\raj\AppData\Local\Temp"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="11.0.2+9-LTS"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/MercuryTest/display/redirect"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-PG3URJ6"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="HOMEPATH" value="\Users\raj"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="MEDIAMALL" value="C:\Program Files (x86)\MediaMall\"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="COMPUTERNAME" value="DESKTOP-PG3URJ6"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="MercuryToursAutomation"/>
+    <property name="user.home" value="C:\Users\raj"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="BUILD_TAG" value="jenkins-MercuryTest-2"/>
+    <property name="JENKINS_SERVER_COOKIE" value="4a211820554dc9c0"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.version.date" value="2019-01-15"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\Users\raj"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\raj\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Java\jre1.8.0_201;C:\Program Files\Java\jdk-11.0.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin;C:\Users\raj\Desktop\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Users\raj\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-11.0.2\bin;;."/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\Users\raj\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Users\raj\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.class.path" value="C:\Users\raj\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12.jar;C:\Users\raj\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.5.2.jar;C:\Users\raj\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\raj\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\raj\.jenkins\war\WEB-INF\lib\remoting-3.29.jar C:\Users\raj\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Users\raj\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 58346"/>
+    <property name="Path" value="C:\Program Files\Java\jre1.8.0_201;C:\Program Files\Java\jdk-11.0.2\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Micro Focus\Unified Functional Testing\bin;C:\Users\raj\Desktop\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Users\raj\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-11.0.2\bin;"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 158 Stepping 9, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="M2_HOME" value="C:\Users\raj\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="java.io.tmpdir" value="C:\Users\raj\AppData\Local\Temp\"/>
+    <property name="HUDSON_HOME" value="C:\Users\raj\.jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Users\raj\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/MercuryTest/2/"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.dir" value="C:\Users\raj\eclipse-workspace\MercuryToursTest"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/MercuryTest/"/>
+    <property name="LOGONSERVER" value="\\DESKTOP-PG3URJ6"/>
+    <property name="USERDOMAIN" value="DESKTOP-PG3URJ6"/>
+    <property name="MAVEN_HOME" value="C:\Users\raj\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="2"/>
+    <property name="PROCESSOR_REVISION" value="9e09"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="=C:" value="C:\Users\raj\eclipse-workspace\Jenkins"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Users\raj\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar"/>
+    <property name="WORKSPACE" value="C:\Users\raj\.jenkins\workspace\MercuryTest"/>
+    <property name="maven3.interceptor.common" value="C:\Users\raj\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="java.vendor.version" value="18.9"/>
+  </properties>
+  <testcase classname="com.mercury.qa.testcases.HomePageTest" name="validateContinueButtonTest" time="0.036"/>
+  <testcase classname="com.mercury.qa.testcases.HomePageTest" name="validateHomepageTitleTest" time="0.018">
+    <failure message="expected [Sign-on: Mercury Tours] but found [Find a Flight: Mercury Tours:]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Sign-on: Mercury Tours] but found [Find a Flight: Mercury Tours:]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.mercury.qa.testcases.HomePageTest.validateHomepageTitleTest(HomePageTest.java:34)
+</failure>
+    <system-out>Before navigating to: &apos;http://newtours.demoaut.com/&apos;
+Navigated to:&apos;http://newtours.demoaut.com/&apos;
+Trying to find Element By : By.name: userName
+Found Element By : By.name: userName
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.name: login
+Found Element By : By.name: login
+Trying to click on: [[ChromeDriver: chrome on XP (e7a01a86842eee8f6abc0fa5080440a2)] -&gt; name: login]
+Clicked on: [[ChromeDriver: chrome on XP (e7a01a86842eee8f6abc0fa5080440a2)] -&gt; name: login]
+</system-out>
+    <system-err>Starting ChromeDriver 73.0.3683.20 (8e2b610813e167eee3619ac4ce6e42e3ec622017) on port 41899
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Mar. 16, 2019 7:08:47 P.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="com.mercury.qa.testcases.LoginPageTest" name="validateLoginTest" time="1.637"/>
+  <testcase classname="com.mercury.qa.testcases.LoginPageTest" name="validateLoginTitleTest" time="0.008"/>
+  <testcase classname="com.mercury.qa.testcases.ProfilePageTest" name="validateEditImageTest" time="0.034"/>
+  <testcase classname="com.mercury.qa.testcases.ProfilePageTest" name="validateSubmitBtnTest" time="0.031"/>
+  <testcase classname="com.mercury.qa.testcases.HomePageTest" name="validateHomeLogoTest" time="0.03"/>
+  <testcase classname="com.mercury.qa.testcases.HomePageTest" name="validateProfilePageLinkTest" time="0.36"/>
+  <testcase classname="com.mercury.qa.testcases.LoginPageTest" name="validateTitleLogoTest" time="0.032"/>
+  <testcase classname="com.mercury.qa.testcases.ProfilePageTest" name="fillingFormTest" time="0.269"/>
+  <testcase classname="com.mercury.qa.testcases.ProfilePageTest" name="fillingFormTest" time="0.256"/>
+  <testcase classname="com.mercury.qa.testcases.ProfilePageTest" name="fillingFormTest" time="0.241"/>
+</testsuite>

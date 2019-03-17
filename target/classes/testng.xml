@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Mercury Tours Automation">
+
+	 <listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners> 
+
+
+	<test name="Mercury Tours testcases">
+	
+		<classes>
+			<class name="com.mercury.qa.testcases.LoginPageTest"></class>
+			<class name="com.mercury.qa.testcases.HomePageTest"></class>
+			<class name="com.mercury.qa.testcases.ProfilePageTest"></class>
+
+		</classes>
+	</test>
+</suite>

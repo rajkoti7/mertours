@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="11" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-03-16T23:08:38Z" name="Command line suite" finished-at="2019-03-16T23:09:56Z" duration-ms="78649">
+    <groups>
+    </groups>
+    <test started-at="2019-03-16T23:08:38Z" name="Command line test" finished-at="2019-03-16T23:09:56Z" duration-ms="78649">
+      <class name="com.mercury.qa.testcases.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mercury.qa.testcases.HomePageTest@50a638b5]" started-at="2019-03-16T23:08:38Z" name="setUp" finished-at="2019-03-16T23:08:44Z" duration-ms="6204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateContinueButtonTest()[pri:1, instance:com.mercury.qa.testcases.HomePageTest@50a638b5]" started-at="2019-03-16T23:08:44Z" name="validateContinueButtonTest" finished-at="2019-03-16T23:08:44Z" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContinueButtonTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mercury.qa.testcases.HomePageTest@50a638b5]" started-at="2019-03-16T23:08:44Z" name="teardown" finished-at="2019-03-16T23:08:45Z" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mercury.qa.testcases.HomePageTest@50a638b5]" started-at="2019-03-16T23:08:45Z" name="setUp" finished-at="2019-03-16T23:08:51Z" duration-ms="6035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateHomepageTitleTest()[pri:1, instance:com.mercury.qa.testcases.HomePageTest@50a638b5]" started-at="2019-03-16T23:08:51Z" name="validateHomepageTitleTest" finished-at="2019-03-16T23:08:51Z" duration-ms="15" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Sign-on: Mercury Tours] but found [Find a Flight: Mercury Tours:]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Sign-on: Mercury Tours] but found [Find a Flight: Mercury Tours:]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.mercury.qa.testcases.HomePageTest.validateHomepageTitleTest(HomePageTest.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomepageTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mercury.qa.testcases.HomePageTest@50a638b5]" started-at="2019-03-16T23:08:51Z" name="teardown" finished-at="2019-03-16T23:08:51Z" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mercury.qa.testcases.HomePageTest@50a638b5]" started-at="2019-03-16T23:09:16Z" name="setUp" finished-at="2019-03-16T23:09:22Z" duration-ms="5723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateHomeLogoTest()[pri:2, instance:com.mercury.qa.testcases.HomePageTest@50a638b5]" started-at="2019-03-16T23:09:22Z" name="validateHomeLogoTest" finished-at="2019-03-16T23:09:22Z" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomeLogoTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mercury.qa.testcases.HomePageTest@50a638b5]" started-at="2019-03-16T23:09:22Z" name="teardown" finished-at="2019-03-16T23:09:23Z" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mercury.qa.testcases.HomePageTest@50a638b5]" started-at="2019-03-16T23:09:23Z" name="setUp" finished-at="2019-03-16T23:09:29Z" duration-ms="5890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateProfilePageLinkTest()[pri:2, instance:com.mercury.qa.testcases.HomePageTest@50a638b5]" started-at="2019-03-16T23:09:29Z" name="validateProfilePageLinkTest" finished-at="2019-03-16T23:09:29Z" duration-ms="359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProfilePageLinkTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mercury.qa.testcases.HomePageTest@50a638b5]" started-at="2019-03-16T23:09:29Z" name="teardown" finished-at="2019-03-16T23:09:30Z" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mercury.qa.testcases.HomePageTest -->
+      <class name="com.mercury.qa.testcases.ProfilePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mercury.qa.testcases.ProfilePageTest@6ca8564a]" started-at="2019-03-16T23:09:02Z" name="setUp" finished-at="2019-03-16T23:09:09Z" duration-ms="6706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateEditImageTest()[pri:1, instance:com.mercury.qa.testcases.ProfilePageTest@6ca8564a]" started-at="2019-03-16T23:09:09Z" name="validateEditImageTest" finished-at="2019-03-16T23:09:09Z" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEditImageTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mercury.qa.testcases.ProfilePageTest@6ca8564a]" started-at="2019-03-16T23:09:09Z" name="teardown" finished-at="2019-03-16T23:09:10Z" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mercury.qa.testcases.ProfilePageTest@6ca8564a]" started-at="2019-03-16T23:09:10Z" name="setUp" finished-at="2019-03-16T23:09:16Z" duration-ms="5973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateSubmitBtnTest()[pri:1, instance:com.mercury.qa.testcases.ProfilePageTest@6ca8564a]" started-at="2019-03-16T23:09:16Z" name="validateSubmitBtnTest" finished-at="2019-03-16T23:09:16Z" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSubmitBtnTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mercury.qa.testcases.ProfilePageTest@6ca8564a]" started-at="2019-03-16T23:09:16Z" name="teardown" finished-at="2019-03-16T23:09:16Z" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mercury.qa.testcases.ProfilePageTest@6ca8564a]" started-at="2019-03-16T23:09:35Z" name="setUp" finished-at="2019-03-16T23:09:41Z" duration-ms="5945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fillingFormTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.mercury.qa.testcases.ProfilePageTest@6ca8564a]" started-at="2019-03-16T23:09:41Z" name="fillingFormTest" data-provider="getMercuryTestData" finished-at="2019-03-16T23:09:41Z" duration-ms="269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[vijayawada]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[INDIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillingFormTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mercury.qa.testcases.ProfilePageTest@6ca8564a]" started-at="2019-03-16T23:09:41Z" name="teardown" finished-at="2019-03-16T23:09:42Z" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mercury.qa.testcases.ProfilePageTest@6ca8564a]" started-at="2019-03-16T23:09:42Z" name="setUp" finished-at="2019-03-16T23:09:48Z" duration-ms="6314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fillingFormTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.mercury.qa.testcases.ProfilePageTest@6ca8564a]" started-at="2019-03-16T23:09:48Z" name="fillingFormTest" data-provider="getMercuryTestData" finished-at="2019-03-16T23:09:48Z" duration-ms="257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pinky]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[toronto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[CANADA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillingFormTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mercury.qa.testcases.ProfilePageTest@6ca8564a]" started-at="2019-03-16T23:09:48Z" name="teardown" finished-at="2019-03-16T23:09:49Z" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mercury.qa.testcases.ProfilePageTest@6ca8564a]" started-at="2019-03-16T23:09:49Z" name="setUp" finished-at="2019-03-16T23:09:56Z" duration-ms="6671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="fillingFormTest(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.mercury.qa.testcases.ProfilePageTest@6ca8564a]" started-at="2019-03-16T23:09:56Z" name="fillingFormTest" data-provider="getMercuryTestData" finished-at="2019-03-16T23:09:56Z" duration-ms="241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dolly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sydney]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[AUSTRALIA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillingFormTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mercury.qa.testcases.ProfilePageTest@6ca8564a]" started-at="2019-03-16T23:09:56Z" name="teardown" finished-at="2019-03-16T23:09:56Z" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mercury.qa.testcases.ProfilePageTest -->
+      <class name="com.mercury.qa.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@1817d444]" started-at="2019-03-16T23:08:51Z" name="setUp" finished-at="2019-03-16T23:08:56Z" duration-ms="4140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginTest()[pri:1, instance:com.mercury.qa.testcases.LoginPageTest@1817d444]" started-at="2019-03-16T23:08:56Z" name="validateLoginTest" finished-at="2019-03-16T23:08:57Z" duration-ms="1637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@1817d444]" started-at="2019-03-16T23:08:57Z" name="teardown" finished-at="2019-03-16T23:08:58Z" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@1817d444]" started-at="2019-03-16T23:08:58Z" name="setUp" finished-at="2019-03-16T23:09:02Z" duration-ms="4019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginTitleTest()[pri:1, instance:com.mercury.qa.testcases.LoginPageTest@1817d444]" started-at="2019-03-16T23:09:02Z" name="validateLoginTitleTest" finished-at="2019-03-16T23:09:02Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTitleTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@1817d444]" started-at="2019-03-16T23:09:02Z" name="teardown" finished-at="2019-03-16T23:09:02Z" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@1817d444]" started-at="2019-03-16T23:09:30Z" name="setUp" finished-at="2019-03-16T23:09:34Z" duration-ms="4121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateTitleLogoTest()[pri:2, instance:com.mercury.qa.testcases.LoginPageTest@1817d444]" started-at="2019-03-16T23:09:34Z" name="validateTitleLogoTest" finished-at="2019-03-16T23:09:34Z" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleLogoTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mercury.qa.testcases.LoginPageTest@1817d444]" started-at="2019-03-16T23:09:34Z" name="teardown" finished-at="2019-03-16T23:09:34Z" duration-ms="617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mercury.qa.testcases.LoginPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
